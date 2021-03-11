@@ -147,8 +147,12 @@
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <picture>
+          <source media="(max-width: 600px)" srcset="resized/redpanda600-close-portrait.jpg">
+          <source media="(min-width: 601px)" srcset="resized/redpanda1200.jpg">
+          <img src="resized/redpanda1200.jpg" alt="red panda">
+        </picture>
       </div>
 
     </main>
   </body>
-</html>
